@@ -1,0 +1,142 @@
+# ==========================================
+# BACKEND (Python/FastAPI)
+# ==========================================
+
+# Python
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/**/*.py[cod]
+backend/*$py.class
+backend/**/*$py.class
+*.pyc
+
+# Virtual Environments
+backend/venv/
+backend/venv312/
+backend/env/
+backend/ENV/
+backend/.venv/
+
+# Python Build
+backend/build/
+backend/dist/
+backend/*.egg-info/
+backend/.eggs/
+
+# Database
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Python Testing
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.tox/
+
+# Python Logs
+backend/*.log
+backend/pip-log.txt
+
+# ==========================================
+# FRONTEND (Next.js/Node.js)
+# ==========================================
+
+# Dependencies
+frontend/node_modules/
+frontend/package-lock.json
+frontend/.pnp
+frontend/.pnp.js
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Production
+frontend/dist/
+
+# Vercel
+frontend/.vercel
+
+# Frontend Logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/lerna-debug.log*
+
+# ==========================================
+# ENVIRONMENT VARIABLES (ALL)
+# ==========================================
+
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.local
+frontend/.env.*
+
+# ==========================================
+# SECRETS & CREDENTIALS (ALL)
+# ==========================================
+
+*.pem
+*.key
+*.cert
+*.crt
+secrets.json
+credentials.json
+**/secrets/
+**/credentials/
+
+# ==========================================
+# IDE & EDITORS (ALL)
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ==========================================
+# OPERATING SYSTEM (ALL)
+# ==========================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# ==========================================
+# TEMPORARY & MISC FILES (ALL)
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.cache
+.ipynb_checkpoints
